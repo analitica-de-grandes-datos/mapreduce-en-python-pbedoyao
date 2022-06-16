@@ -16,13 +16,16 @@ if __name__ == '__main__':
         atributo, valor = line.split("\t")
         # Se convierte el valor a entero
         valor = int(valor)
-
+        
+        #se compara el atributo si son iguales se le suma 1 al valor
         if atributo == anteratributo:
             total += valor
         else:
+            #se el anterior atributo no es vacio se inmprime la linea
             if anteratributo is not None:
                 sys.stdout.write("{}\t{}\n".format(anteratributo, total))
 
+            #se reinicia los valores de atributo y valor con el nuevo atributo
             anteratributo = atributo
             total = valor
 
