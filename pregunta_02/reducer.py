@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
             #se reinicia los valores de atributo y valor con el nuevo atributo
             anteratributo = atributo
-            total = maximo
+            maximo = valor
 
     sys.stdout.write("{}\t{}\n".format(anteratributo, maximo))
