@@ -27,9 +27,9 @@ if __name__ == '__main__':
             #se el anterior atributo no es vacio se inmprime la linea
             if anteratributo is not None:
                 if len(str(anteratributo)) == 1:
-                    sys.stdout.write("0{} {}\n".format(anteratributo, total))
+                    sys.stdout.write("0{}\t{}\n".format(anteratributo, total))
                 else:
-                    sys.stdout.write("{} {}\n".format(anteratributo, total))
+                    sys.stdout.write("{}\t{}\n".format(anteratributo, total))
                 total = 1
 
             #se reinicia los valores de atributo y total con el nuevo atributo
@@ -37,8 +37,8 @@ if __name__ == '__main__':
             total = valor
     
     if len(str(anteratributo)) == 1:
-        sys.stdout.write("0{} {}\n".format(anteratributo, total))
+        sys.stdout.write("0{}\t{}\n".format(anteratributo, total))
     else:
-        sys.stdout.write("{} {}\n".format(anteratributo, total))
+        sys.stdout.write("{}\t{}\n".format(anteratributo, total))
 
             

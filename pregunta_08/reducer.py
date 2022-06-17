@@ -28,7 +28,7 @@ if __name__ == '__main__':
             #se el anterior atributo no es vacio se inmprime la linea
             if anteratributo is not None:
                 promedio = suma/numrep
-                sys.stdout.write("{}\t{}\t{}\n".format(anteratributo, suma, promedio))
+                sys.stdout.write("{}	{}	{}\n".format(anteratributo, suma, promedio))
 
             #se reinicia los valores de atributo y valor con el nuevo atributo
             anteratributo = atributo
@@ -36,4 +36,4 @@ if __name__ == '__main__':
             numrep = 1
 
     promedio = suma/numrep
-    sys.stdout.write("{}\t{}\t{}\n".format(anteratributo, suma, promedio))
+    sys.stdout.write("{}	{}	{}\n".format(anteratributo, suma, promedio))

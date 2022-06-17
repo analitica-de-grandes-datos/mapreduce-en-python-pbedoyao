@@ -10,4 +10,4 @@ if __name__ == "__main__":
         #se divide la linea del archivo por coma (" ")
         lista = line.split(",")
         # se escribe la salida del archivo obteniendo dos columna
-        sys.stdout.write("{}\t{}\t{}\n".format(lista[0].strip(),lista[2].strip(), int(lista[1].strip())))
+        sys.stdout.write("{}   {}   {}\n".format(lista[0].strip(),lista[2].strip(), int(lista[1].strip())))

@@ -10,5 +10,5 @@ if __name__ == "__main__":
         #se divide la linea del archivo por coma (,)
         lista = line.split(",")
         # se escribe la salida del archivo obteniendo la columna 2 separada por ,
-        sys.stdout.write("{}\n".format(lista[1].strip()))
+        sys.stdout.write("{},{}\n".format(lista[1].strip(),lista[0].strip()))
         
